@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  padding: 16px;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow-x: hidden;
+
+}
+
+.skilled {
+  color: #13183f;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+
+
+.get0 {
+  background: #13183f;
+  border-radius: 28px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  width: 140px;
+  height: 48px;
+  text-align: center;
+  border: none;
+}
+
+.logo-dark {
+  width: 89px;
+  height: 35px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.maximize {
+  color: #13183f;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 38px;
+}
+
+.our-modern {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+  margin-top: 26px;
+}
+
+.get1 {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 31.5px;
+  width: 167px;
+  height: 56px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-top: 24px;
+  border: none;
+}
+
+.hero-tablet {
+  display: none;
+}
+
+.hero-dekstop {
+  display: none;
+}
+
+
+.hero-mobile {
+  width: 327px;
+  height: 301px;
+  margin-top: 46px;
+  
+}
+
+
+.check-out-div {
+  background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  height: 120px;
+width: 343px;
+border-radius: 10px;
+padding: 24px 29px 32px 28px;
+}
+
+.check-out {
+  
+ 
+  
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+ 
+  
+
+}
+
+.img-icon {
+  width: 56px;
+  height: 56px;
+}
+
+.animation-div {
+  padding: 16px;
+  background: #FFFFFF;
+}
+
+.animation {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
+  margin-top: 24px;
+}
+
+.learn-text {
+  color: #83869a;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  margin-top: 16px;
+  
+}
+
+.get2 {
+  color: #f74780;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 24px;
+  width: 104px;
+  height: 28px;
+}
+
+.design-div {
+  padding: 16px;
+  background: #FFFFFF;
+}
+
+.design-text {
+  color: #13183f;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 24px;
+}
+
+.create-text {
+  color: #83869a;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  margin-top: 16px;
+}
+
+.get3 {
+  color: #f74780;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 24px;
+  width: 104px;
+  height: 28px;
+}
+
+.photography-div {
+  padding: 16px;
+  background: #FFFFFF;
+}
+
+.photography-text {
+  color: #13183f;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 24px;
+  display: block;
+}
+
+.explore-text {
+  color: #83869a;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  margin-top: 16px;
+}
+
+.get4 {
+  color: #f74780;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 24px;
+  width: 104px;
+  height: 28px;
+}
+
+.crypto-div {
+    padding: 16px;
+    background: #FFFFFF;
+}
+
+.Crypto-text {
+    color: #13183f;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 24px;
+    display: block;
+}
+
+.get5 {
+    color: #f74780;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 24px;
+  width: 104px;
+  height: 28px;
+}
+
+.all-text {
+    color: #83869a;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  margin-top: 16px;
+}
+
+.business-div {
+    padding: 16px;
+    background: #FFFFFF;
+}
+
+.business-text {
+    color: #13183f;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 24px;
+    display: block;
+}
+
+.step-by-step-text {
+    color: #83869a;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+.get6 {
+    color: #f74780;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 24px;
+    width: 104px;
+    height: 28px;
+}
+
+.logo-light-div {
+    background: #13183F;
+    width: 100%;
+height: 120px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 16px;
+
+}
+
+.get7 {
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+border-radius: 28px;
+width: 140px;
+height: 48px;
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+color: #FFFFFF;
+border: none;
+
+
+}
+
+.logo-light {
+    width: 89px;
+    
+}
+
+@media screen and (min-width: 768px) {
+
+  .parent {
+    padding: 24px 40px 0px 40px;
+  }
+
+.hero-dekstop {
+  display: none;
+}
+
+.hero-tablet {
+  display: block;
+  margin-top: -35%;
+
+  
+}
+
+
+.hero-images-div{
+  width: 52%;
+}
+
+ .hero-mobile {
+  display: none;
+ }
+  
+
+
+.left-text {
+  width: 398px;
+  margin-top: 90px;
+}
+
+.top-content {
+  display: flex;
+  
+
+}
+
+.check-out-div {
+  height: 259px;
+width: 339px;
+border-radius: 10px;
+width: 45%;
+padding: 59px 21px 139px 32px ;
+
+}
+
+.elements {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 39px;
+  gap: 10px;
+ border-radius: 10px;
+}
+
+.animation-div {
+  width: 45%;
+  margin-top: -40px;
+}
+
+.business-div {
+  width: 45%;
+}
+
+.design-div {
+  width: 45%;
+}
+
+.photography-div {
+  width: 45%;
+}
+
+.crypto-div {
+  width: 45%;
+}
+
+
+}
+
+@media screen and (min-width: 1440px) {
+
+.parent {
+  padding: 24px 165px;
+}
+
+.hero-tablet {
+  display: none;
+}
+
+.hero-dekstop {
+  display: block;
+  margin-left: 30%;
+  margin-top: -40%;
+}
+
+.left-text {
+  margin-top: 186px;
+}
+
+
+
+.animation-div {
+  margin-top: 0;
+  width: 30%;
+  border-radius: 15px;
+}
+
+.check-out-div {
+  height: 322px;
+  width: 30%;
+}
+
+
+
+.crypto-div {
+  border-radius: 15px;
+  width: 30%;
+}
+
+.design-div {
+  border-radius: 15px;
+  width: 30%;
+
+}
+
+.photography-div {
+  border-radius: 15px;
+  width: 30%;
+}
+
+.business-div {
+  border-radius: 15px;
+  width: 30%;
+}
+
+.get0 {
+  cursor: pointer;
+ position: relative;
+
+}
+
+.get1 {
+  cursor: pointer;
+}
+
+.get7 {
+  cursor: pointer;
+  position: relative;
+}
+
+
+
+}
